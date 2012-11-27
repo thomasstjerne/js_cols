@@ -293,15 +293,18 @@ js_cols.addDependency = function(relPath, provides, requires) {
    * @private
    */
   js_cols.writeScriptTag_ = function(src) {
-    if (js_cols.inHtmlDocument_()) {
-      var doc = js_cols.global.document;
-      doc.write(
-          '<script type="text/javascript" src="' + src + '"></' + 'script>');
-      return true;
-    } else {
-      return false;
-    }
-  };
+	    if (js_cols.inHtmlDocument_()) {
+	      var doc = js_cols.global.document;
+	      var script = doc.createElement('script');
+			script.type = 'text/javascript';
+			script.src = src;
+			document.getElementsByTagName('head')[0]
+					.appendChild(script);
+	      return true;
+	    } else {
+	      return false;
+	    }
+	  };
 /**
    * Looks at the dependency rules and tries to determine the script file that
    * fulfills a particular rule.
