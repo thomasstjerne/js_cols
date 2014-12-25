@@ -1,0 +1,15 @@
+{
+  "name": "js_cols",
+  "version": "1.0.1",
+  "main": "dist/js_cols.min.js",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}

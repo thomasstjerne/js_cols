@@ -1,0 +1,25 @@
+{
+  "name": "js_cols",
+  "version": "1.0.1",
+  "description": "Data structures for JavaScript",
+  "author": "Thomas Stjernegaard Jeppesen",
+  "keywords": [
+    "data structures",
+    "collections"
+  ],
+  "main": "dist/js_cols.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasstjerne/js_cols"
+  },
+  "scripts": {
+    "test": "nodeunit test",
+    "coveralls": "jscoverage dist && JS_COLS_COVERAGE=1 nodeunit --reporter=lcov test | coveralls"
+  },
+  "devDependencies": {
+    "jscoverage": "~0.5.9",
+    "nodeunit": "~0.9.0",
+    "coveralls": "~2.11.2"
+  },
+  "engine": "node >= 0.4.1"
+}
