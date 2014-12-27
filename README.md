@@ -3,7 +3,7 @@
 js_cols is a library of powerful collection data structures for JavaScript. js_cols provides Lists, FIFO queues, LIFO Stacks, Priority Queues, sorted and unsorted Sets and Maps, Bags (Multi Sets) and Multi Maps.
 
 The project adds functionality to the JavaScript language, similar to that of java.util (for Java) and the C5 Library (for C#).
-The Library stands alone and should be easy integratable in all kinds of JavaScript projects. 
+The Library stands alone and is easy integratable in all kinds of JavaScript projects. 
 
 ## Quick start
 
@@ -38,6 +38,9 @@ $ npm install js_cols --save
 ```javascript
 var js_cols = require('js_cols');
 ```
+## Documentation
+
++ [The docs are found here] ()
 
 ## [license] (https://github.com/thomasstjerne/js_cols/blob/master/LICENSE)
 
