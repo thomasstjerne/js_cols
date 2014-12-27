@@ -19,9 +19,7 @@
   "devDependencies": {
     "jscoverage": "~0.5.9",
     "nodeunit": "~0.9.0",
-    "coveralls": "~2.11.2",
-    "jsdoc": "~3.3.0-alpha13",
-    "ink-docstrap": "~0.4.12"
+    "coveralls": "~2.11.2"
   },
   "engine": "node >= 0.4.1"
 }
