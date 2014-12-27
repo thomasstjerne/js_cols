@@ -40,7 +40,7 @@ var js_cols = require('js_cols');
 ```
 ## Documentation
 
-+ [The docs are found here] ()
++ [The docs are found here] (http://thomasstjerne.github.io/js_cols/docs/1.0.1/)
 
 ## [license] (https://github.com/thomasstjerne/js_cols/blob/master/LICENSE)
 
