@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>js_cols Class: Handle</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/site.flatly.css">
+
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class="navbar navbar-fixed-top navbar-inverse">
+		<div class="navbar-inner">
+			<a class="brand" href="index.html">js_cols</a>
+			<ul class="nav">
+				
+				<li class="dropdown">
+					<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b
+						class="caret"></b></a>
+
+					<ul class="dropdown-menu ">
+						
+						<li>
+							<a href="js_cols.HashBag.html">js_cols.HashBag</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.HashMap.html">js_cols.HashMap</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.HashMultiMap.html">js_cols.HashMultiMap</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.HashSet.html">js_cols.HashSet</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.inherits-tempCtor.html">js_cols.inherits~tempCtor</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.IntervalHeap.html">js_cols.IntervalHeap</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.IntervalHeap.Handle.html">js_cols.IntervalHeap.Handle</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.LinkedHashMap.html">js_cols.LinkedHashMap</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.LinkedList.html">js_cols.LinkedList</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.LinkedList.LinkedListIterator.html">js_cols.LinkedList.LinkedListIterator</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.Queue.html">js_cols.Queue</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.RedBlackBag.html">js_cols.RedBlackBag</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.RedBlackMap.html">js_cols.RedBlackMap</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.RedBlackMultiMap.html">js_cols.RedBlackMultiMap</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.RedBlackSet.html">js_cols.RedBlackSet</a>
+						</li>
+						
+						<li>
+							<a href="js_cols.Stack.html">js_cols.Stack</a>
+						</li>
+						
+
+					</ul>
+				</li>
+				
+				<li class="dropdown">
+					<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b
+						class="caret"></b></a>
+
+					<ul class="dropdown-menu ">
+						
+						<li>
+							<a href="global.html#js_cols">js_cols</a>
+						</li>
+						
+
+					</ul>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+
+	<div class="row-fluid">
+
+		
+		<div class="span8">
+			
+				<div id="main">
+					
+
+
+	<h1 class="page-title">Class: Handle</h1>
+<section>
+
+<header>
+    <h2>
+        <span class="ancestors"><a href="global.html#js_cols">js_cols</a><a href="js_cols.IntervalHeap.html">.IntervalHeap</a>.</span>
+    
+    Handle
+    </h2>
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+
+    
+        
+<dt>
+    <h4 class="name" id="Handle"><span class="type-signature"></span>new Handle<span class="signature">(k, v, i, c)</span><span class="type-signature"></span></h4>
+    
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>A handle used to locate a given element in the heap to obtain O(logn) running time
+for changeKey and remove. Handles are returned when inserting a key/value pair into the heap.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name"><code>k</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the priority key</p></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>v</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the value to insert</p></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>i</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Integer</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the index in the heap</p></td>
+        </tr>
+
+	
+
+        <tr>
+            
+                <td class="name"><code>c</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="js_cols.IntervalHeap.html">js_cols.IntervalHeap</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the heap containing the element referenced by this handle</p></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+				</div>
+
+				<div class="clearfix"></div>
+				<footer>
+					
+					js_cols - powerful collection classes for JavaScript
+					<br />
+					
+					
+		<span class="copyright">
+		js_cols Copyright © 2010-2015 Thomas Stjernegaard Jeppesen.
+		</span>
+					<br />
+					
+		<span class="jsdoc-message">
+		Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-alpha13</a>
+		on Sat Dec 27th 2014 using the <a
+			href="https://github.com/terryweiss/docstrap">DocStrap template</a>.
+		</span>
+				</footer>
+			</div>
+
+			
+			<div class="span3">
+				<div id="toc"></div>
+			</div>
+			
+			<br clear="both">
+		</div>
+
+	</div>
+	<!--<script src="scripts/sunlight.js"></script>-->
+	<script src="scripts/docstrap.lib.js"></script>
+	<script src="scripts/bootstrap-dropdown.js"></script>
+	<script src="scripts/toc.js"></script>
+
+	<script>
+		$( function () {
+			$( "[id*='$']" ).each( function () {
+				var $this = $( this );
+
+				$this.attr( "id", $this.attr( "id" ).replace( "$", "__" ) );
+			} );
+
+			$( "#toc" ).toc( {
+				anchorName  : function ( i, heading, prefix ) {
+					return $( heading ).attr( "id" ) || ( prefix + i );
+				},
+				selectors   : "h1,h2,h3,h4",
+				showAndHide : false,
+				scrollTo    : "100px"
+			} );
+
+			$( "#toc>ul" ).addClass( "nav nav-pills nav-stacked" );
+			$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+			$( '.dropdown-toggle' ).dropdown();
+//			$( ".tutorial-section pre, .readme-section pre" ).addClass( "sunlight-highlight-javascript" ).addClass( "linenums" );
+
+			$( ".tutorial-section pre, .readme-section pre" ).each( function () {
+				var $this = $( this );
+
+				var example = $this.find( "code" );
+				exampleText = example.html();
+				var lang = /{@lang (.*?)}/.exec( exampleText );
+				if ( lang && lang[1] ) {
+					exampleText = exampleText.replace( lang[0], "" );
+					example.html( exampleText );
+					lang = lang[1];
+				} else {
+					lang = "javascript";
+				}
+
+				if ( lang ) {
+
+					$this
+						.addClass( "sunlight-highlight-" + lang )
+						.addClass( "linenums" )
+						.html( example.html() );
+
+				}
+			} );
+
+			Sunlight.highlightAll( {
+				lineNumbers : true,
+				showMenu : true,
+				enableDoclinks : true
+			} );
+		} );
+	 </script>
+
+
+
+	<!--Navigation and Symbol Display-->
+	
+
+
+	<!--Google Analytics-->
+	
+
+</body>
+</html>
