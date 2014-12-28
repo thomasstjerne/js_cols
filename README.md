@@ -38,9 +38,14 @@ $ npm install js_cols --save
 ```javascript
 var js_cols = require('js_cols');
 ```
+
 ## Documentation
 
 + [The docs are found here] (http://thomasstjerne.github.io/js_cols/docs/1.0.1/)
+
+## Example usage
+
++ (Writing And Testing Data Structures And Algorithms In JavaScript)(http://blog.xebia.com/2011/06/23/writing-and-testing-data-structures-and-algorithms-in-javascript/) - writing a TagCloud in JavaScript using js_cols
 
 ## [license] (https://github.com/thomasstjerne/js_cols/blob/master/LICENSE)
 
