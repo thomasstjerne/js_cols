@@ -45,7 +45,7 @@ var js_cols = require('js_cols');
 
 ## Example usage
 
-+ (Writing And Testing Data Structures And Algorithms In JavaScript)(http://blog.xebia.com/2011/06/23/writing-and-testing-data-structures-and-algorithms-in-javascript/) - writing a TagCloud in JavaScript using js_cols
++ [Writing And Testing Data Structures And Algorithms In JavaScript](http://blog.xebia.com/2011/06/23/writing-and-testing-data-structures-and-algorithms-in-javascript/) - writing a TagCloud in JavaScript using js_cols
 
 ## [license] (https://github.com/thomasstjerne/js_cols/blob/master/LICENSE)
 
