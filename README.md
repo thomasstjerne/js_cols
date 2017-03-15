@@ -1,4 +1,4 @@
-# js_cols [![Build  Status] (https://travis-ci.org/thomasstjerne/js_cols.svg?branch=master)] (https://travis-ci.org/thomasstjerne/js_cols/) [![Coverage Status](https://coveralls.io/repos/thomasstjerne/js_cols/badge.png)](https://coveralls.io/repos/thomasstjerne/js_cols)
+# js_cols [![Build  Status](https://travis-ci.org/thomasstjerne/js_cols.svg?branch=master)](https://travis-ci.org/thomasstjerne/js_cols/) [![Coverage Status](https://coveralls.io/repos/thomasstjerne/js_cols/badge.png)](https://coveralls.io/repos/thomasstjerne/js_cols)
 
 js_cols is a library of powerful collection data structures for JavaScript. js_cols provides Lists, FIFO queues, LIFO Stacks, Priority Queues, sorted and unsorted Sets and Maps, Bags (Multi Sets) and Multi Maps.
 
@@ -41,13 +41,13 @@ var js_cols = require('js_cols');
 
 ## Documentation
 
-+ [The docs are found here] (http://thomasstjerne.github.io/js_cols/docs/1.0.1/)
++ [The docs are found here](http://thomasstjerne.github.io/js_cols/docs/1.0.1/)
 
 ## Example usage
 
 + [Writing And Testing Data Structures And Algorithms In JavaScript](http://blog.xebia.com/2011/06/23/writing-and-testing-data-structures-and-algorithms-in-javascript/) - writing a TagCloud in JavaScript using js_cols
 
-## [license] (https://github.com/thomasstjerne/js_cols/blob/master/LICENSE)
+## [license](https://github.com/thomasstjerne/js_cols/blob/master/LICENSE)
 
 The js_cols library was designed and written by Thomas Stjernegaard Jeppesen, 2010
 
